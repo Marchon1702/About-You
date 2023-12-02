@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About You</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <section class="welcome">
+            <h1>About You</h1>
+        </section>
+    </header>
+    <main>
+        <section class="infos">
+            <label for="gender">Gênero: </label>
+            <select name="gender" id="gender">
+                <option value="mas">Masculino</option>
+                <option value="fem">Feminino</option>
+            </select>
+            <br>
+            <label for="first-name">Nome: </label>
+            <input type="text" name="first-name" id="first-name" placeholder="Primeiro nome:">
+            <br>
+            <label for="sec-name">Sobrenome: </label>
+            <input type="text" name="sec-name" id="sec-name" placeholder="Resto do nome:">
+            <br>
+            <label for="age">Idade: </label>
+            <input type="number" name="age" id="age" placeholder="Insira sua idade:">
+            <br>
+            <label for="height">Altura: </label>
+            <input type="number" name="height" id="height" placeholder="Altura em metros:">
+            <br>
+            <label for="weight">Peso: </label>
+            <input type="number" name="weight" id="weight" placeholder="Peso em kilos:">
+            <br>
+            <button id="submit">Gerar relatório</button>
+        </section>
+        <section class="report">
+                <h1 class="name-people"></h1>
+                <ul>
+                    <li class="r0"></li>
+                    <li class="r1"></li>
+                    <li class="r2"></li>
+                    <li class="r3"></li>
+                    <li class="r4"></li>
+                    <li class="r5"></li>
+                    <li class="r6"></li>
+                </ul>
+        </section>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
+
+<!--
+Genero    
+Quantos dias a pessoa ja viveu;
+Quantos segundos de vida,
+Altura em relação a média, 
+IMC,
+metabolismo basal,
+qts litros de água por dia,
+gramas de proteinas ingeridas por dia,
+-->
